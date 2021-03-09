@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Delivery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Goat's Pizza Delivery</h1><img src="https://cdn.pixabay.com/photo/2021/02/09/01/01/pizza-5997087__340.png" alt="Pizza icon" height="50px" width="50px" id="pizza-image">
+    <p id="description">Thank you for your preference</p>
+    <form id="survey-form">
+        <fieldset>
+            <fieldset id="survey-information">
+                <p>To receive more news about our restaurant</p>
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" placeholder="Enter your name" id="name" class="input-text"><br>
+        <label for="email" id="email-label">E-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" class="input-text">
+            </fieldset>
+
+        <p>Menu</p>
+        <input type="checkbox" name="" id="menu-1" class="input-select">
+        <label for="menu-1">Cheese with pepperoni</label>
+        <br>
+        <input type="checkbox" name="" id="menu-2" class="input-select">
+        <label for="menu-2">Tomato, chicken and olive</label>
+        <br>
+        <input type="checkbox" name="" id="menu-3" class="input-select">
+        <label for="menu-3">Chicken with catupiry</label>
+        <br>
+        <input type="checkbox" name="" id="menu-4" class="input-select">
+        <label for="menu-4">Cheese </label>
+        <br>
+        <input type="checkbox" name="" id="menu-5" class="input-select">
+        <label for="menu-5">Mozzarella</label>
+        <br>
+        <label for="number" id="number-label">Quantites</label><input type="number" name="" id="number" min="1" max="99" placeholder="Quantities of pizzas" class="input-text">
+
+        <p>How do you want to pay?</p>
+        <select name="" id="" class="input-text">
+            <option value="">Money</option>
+            <option value="">Credit Card</option>
+            <option value="">Debit Card</option>
+            <option value="">Other</option>
+        </select>
+
+        <p>Would you recommend the Goat's Pizza Delivery to a friend?</p>
+        <input type="radio" name="" id="" class="input-select"><label for="">But of course!</label><br>
+        <input type="radio" name="" id="" class="input-select"><label for="">So-so</label><br>
+        <input type="radio" name="" id="" class="input-select">
+        <label for="">Better not</label>
+
+        <p>Any comments or suggestions for our restaurant?</p>
+        <input type="text" class="input-text">
+        <br>
+        <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+</body>
+</html>
